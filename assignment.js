@@ -12,7 +12,7 @@ function feetToMile(feet){
 
 
 
-// #2. Wood Amount Calculation
+// #2. Wood Amount Calculator
 
 
 function woodCalculator(chair, table, bed){
@@ -55,12 +55,12 @@ function brickCalculator(floor){
 
 
 
-// #4. Tiny Friend Name
+// #4. Find The Tiny Friend Name
 
 function tinyFriend(friends){
     var smallName = friends[0];
     if(friends.length == 0){
-        return "Please add your friends name";
+        return "It cant be empty, Please add your friends name";
     }
     else{
         for(var i = 0; i < friends.length; i++){
@@ -73,5 +73,3 @@ function tinyFriend(friends){
     return smallName;
 }
  
-var friendsList = [];
-console.log(tinyFriend(friendsList));
